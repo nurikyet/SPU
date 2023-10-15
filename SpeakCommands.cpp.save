@@ -1,0 +1,14 @@
+#define TX_USE_SPEAK
+#include "TxLib.h"
+
+void ProcessorBotay()
+    {
+    txSpeak("Пора ботать!");
+    }
+
+//-----------------------------------------------------------------------------
+
+void ProcessorSleep()
+    {
+    txSpeak( хочу);
+    }
